@@ -19,7 +19,7 @@ I am involved in various research projects related to **data science**, **infect
 
 #### 🧮 Malaria Modeling in DRC (PhD Project, 2023–)
 **Title:** Evaluating the Effectiveness and Cost-Effectiveness of Long-Lasting IRS for Malaria Control in DRC  
-A hierarchical Bayesian model was developed to analyze the residual efficacy of indoor residual spraying (IRS) products across various ecological contexts in DRC. These outputs feed into a dynamic transmission model calibrated to DRC-specific epidemiological and environmental parameters. The goal is to optimize IRS deployment strategies and inform national malaria control policy.
+A hierarchical Bayesian model was developed to analyze the residual efficacy of indoor residual spraying (IRS) products across various ecological contexts in Africa. These outputs feed into a dynamic transmission model calibrated to DRC-specific epidemiological and environmental parameters. The goal is to optimize IRS deployment strategies and inform national malaria control policy.
 
 #### 🧠 Deep Learning in Cybersecurity (2021)
 **Title:** A Mathematical Modeling Approach in Cybersecurity using Deep Neural Learning  
