@@ -5,7 +5,7 @@ permalink: /cv/
 author_profile: true
 ---
 
-You can [**download my CV as PDF here**](https://pascal-sungu.github.io/pascal_sungu_cv.pdf) — or scroll below for the full version.
+You can [**download my CV as PDF here**](https://pascal-sungu.github.io/pascal_sungu_cv.pdf) or scroll below for the full version.
 
 ## 🧠 Education
 
