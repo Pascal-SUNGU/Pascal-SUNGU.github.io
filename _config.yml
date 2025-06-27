@@ -6,167 +6,155 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Theme Settings
-remote_theme: "mmistakes/minimal-mistakes"  # Theme loaded from GitHub
+#
+# Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# Choose your site skin (style): "air", "mint", "dark", etc.
-minimal_mistakes_skin: "default"
+# theme                  : "minimal-mistakes-jekyll"
+# remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "default" # Skin color theme: "air", "aqua", "contrast", "dark", etc.
 
 # Site Settings
-locale: "en-US"  # Site language/region
-rtl: false  # Right-to-left layout (false for English/French)
-
-title: "Pascal SUNGU"  # Site title
-title_separator: "-"  # Separator used in page titles
-subtitle: "Research | Mathematical Modelling | Data Science"  # Short tagline
-
-name: "Pascal SUNGU"  # Your full name
-description: "Personal academic and professional site of Pascal Sungu."  # Appears in search and social previews
-
-url: "https://pascal-sungu.github.io"  # Your website URL
-baseurl: ""  # Leave blank if publishing to root (not /blog or subdir)
-
-repository: "Pascal-SUNGU/Pascal-SUNGU.github.io"  # GitHub repo path
-
-teaser: "/assets/images/default-banner.png"  # Optional fallback image for posts
-
-logo: "/assets/images/logo.png"  # Optional logo for site (upload this image)
-
-masthead_title: " "  # Use " " to hide site title if using logo only
-
-breadcrumbs: true  # Navigation path at top of pages
-
-words_per_minute: 200  # Reading time estimate
-
-enable_copy_code_button: true  # Add "copy" button to code blocks
-
-copyright: "Pascal SUNGU"
-copyright_url: "https://pascal-sungu.github.io"
+locale                   : "en-US" # Language and region setting
+rtl                      : # true, false (default) # Right-to-left layout (keep blank unless needed)
+title                    : "Pascal SUNGU" # Title shown in browser tab
+title_separator          : "-" # Used in title construction: "Pascal SUNGU - Page Title"
+subtitle                 : "Academic and Professional Portfolio" # Optional tagline below title (can adjust later)
+name                     : "Pascal SUNGU" # Used in author information
+description              : "Personal academic and professional site of Pascal SUNGU." # Shown in search engine previews
+url                      : "https://pascal-sungu.github.io" # The full URL to your site
+baseurl                  : "" # Leave blank for GitHub Pages using user/organization site (not a subfolder)
+repository               : "Pascal-SUNGU/Pascal-SUNGU.github.io" # GitHub username/repository-name
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+breadcrumbs              : false # Optional breadcrumb navigation (enable if needed)
+words_per_minute         : 200 # Used for estimating read time
+enable_copy_code_button  : true # Adds a copy button to code blocks
+copyright                : "Pascal SUNGU" # Shown in footer
+copyright_url            : "https://pascal-sungu.github.io" # Link from the copyright
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider: false # Disable comments for now (you can enable later with "giscus", "disqus", etc.)
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname: # Required if using Disqus
   discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+    server: # Required if using Discourse
   facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    appid:
+    num_posts: # 5 (default)
+    colorscheme: # "light" or "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme: # "github-light" (default), "github-dark"
+    issue_term: # "pathname" (default)
   giscus:
-    repo_id              : # Shown during giscus setup at https://giscus.app
-    category_name        : # Full text name of the category
-    category_id          : # Shown during giscus setup at https://giscus.app
-    discussion_term      : # "pathname" (default), "url", "title", "og:title"
-    reactions_enabled    : # '1' for enabled (default), '0' for disabled
-    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
-    strict               : # 1 for enabled, 0 for disabled (default)
-    input_position       : # "top", "bottom" # The comment input box will be placed above or below the comments
-    emit_metadata        : # 1 for enabled, 0 for disabled (default) # https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#imetadatamessage
-    lang                 : # "en" (default)
-    lazy                 : # true, false # Loading of the comments will be deferred until the user scrolls near the comments container.
+    repo_id:
+    category_name:
+    category_id:
+    discussion_term: # "pathname" (default)
+    reactions_enabled: '1'
+    theme: "light"
+    strict: 0
+    input_position: "bottom"
+    emit_metadata: 0
+    lang: "en"
+    lazy: false
   staticman:
-    branch               : # "master"
-    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+    branch: "master"
+    endpoint: # Required if using Staticman
+
 reCaptcha:
-  siteKey                :
-  secret                 :
+  siteKey:
+  secret:
+
 atom_feed:
-  path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+  path: # blank (default) uses feed.xml
+  hide: false
+
+search: true # Enable search
+search_full_content: false
+search_provider: lunr
+
 lunr:
-  search_within_pages    : # true, false (default)
+  search_within_pages: false
+
 algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
+  application_id:
+  index_name:
+  search_only_api_key:
+  powered_by: true
+
 google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
+  search_engine_id:
+  instant_search: false
+
 # SEO Related
-google_site_verification :
-bing_site_verification   :
-naver_site_verification  :
-yandex_site_verification :
-baidu_site_verification  :
+google_site_verification:
+bing_site_verification:
+naver_site_verification:
+yandex_site_verification:
+baidu_site_verification:
 
 # Social Sharing
 twitter:
-  username               :
+  username               : # ← your Twitter username (no @)
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
+  username               : # ← your Facebook username
+  app_id                 : 
+  publisher              : 
+og_image                 : # "/assets/images/social-default.png" ← optional preview image
+
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : Pascal SUNGU
+  links: 
+    - "https://github.com/Pascal-SUNGU"
+    # Add more social profile URLs here as needed
 
 # Analytics
 analytics:
-  provider               : # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : false # ← set to "google-gtag" later if using Google Analytics
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
-
+    tracking_id          : 
+    anonymize_ip         : false
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "Pascal SUNGU"
+  avatar           : # "/assets/images/bio-photo.jpg" ← upload image if desired
+  bio              : "Personal academic and professional site of Pascal Sungu."
+  location         : "Democratic Republic of Congo"
+  email            : # "your.email@example.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      # url: "mailto:your.email@example.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/Pascal-SUNGU"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/your_handle"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      # url: "https://linkedin.com/in/your-profile"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
+      url: "https://github.com/Pascal-SUNGU"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/your_handle"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      # url: "https://linkedin.com/in/your-profile"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      # url: "https://instagram.com/your_profile"
 
 
 # Reading Files
@@ -199,14 +187,13 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
+  - /docs  # exclude docs folder from build
+  - /test  # exclude test folder from build
 keep_files:
   - .git
   - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
 
 # Conversion
 markdown: kramdown
@@ -214,7 +201,6 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -227,27 +213,21 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
+  style: compressed # options: nested, expanded, compact, compressed
 
 # Outputting
 permalink: /:categories/:title/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
+timezone: Africa/Lubumbashi  # <-- set your time zone here
 
 # Pagination with jekyll-paginate
-paginate: 5 # amount of posts to show
+paginate: 5
 paginate_path: /page:num/
 
-# Pagination with jekyll-paginate-v2
-# See https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
-#   for configuration details
+# Pagination with jekyll-paginate-v2 (optional)
 pagination:
-  # Set enabled to true to use paginate v2
   # enabled: true
   debug: false
   collection: 'posts'
@@ -264,16 +244,15 @@ pagination:
     before: 2
     after: 2
 
-
-# Plugins (previously gems:)
+# Plugins (previously called gems)
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
+  - jekyll-paginate         # basic blog pagination
+  - jekyll-sitemap          # auto-generates sitemap.xml
+  - jekyll-gist             # embed GitHub gists
+  - jekyll-feed             # creates RSS feed
+  - jekyll-include-cache    # speeds up includes
 
-# mimic GitHub Pages with --safe
+# Whitelisted plugins (safe mode for GitHub Pages)
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
@@ -281,24 +260,16 @@ whitelist:
   - jekyll-feed
   - jekyll-include-cache
 
-
-# Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path>/my-awesome-category/index.html ~> path: /
+# Archives (for tags and categories)
 category_archive:
-  type: liquid
+  type: liquid              # use Liquid templates (GitHub Pages–compatible)
   path: /categories/
+
 tag_archive:
   type: liquid
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
+
+# Optional: enable if you want nicer permalinks for archives
 # jekyll-archives:
 #   enabled:
 #     - categories
@@ -310,25 +281,21 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
-
-# HTML Compression
-# - https://jch.penibelst.de/
+# HTML Compression (removes whitespace to reduce file size)
 compress_html:
   clippings: all
   ignore:
     envs: development
 
-
-# Defaults
+# Defaults for blog posts
 defaults:
-  # _posts
   - scope:
-      path: ""
+      path: ""              # applies to all folders
       type: posts
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
+      layout: single        # use the "single" layout
+      author_profile: true  # show author info box
+      read_time: true       # show estimated reading time
+      comments:             # leave blank or set to true to enable later
+      share: true           # enable social share buttons
+      related: true         # show related posts
