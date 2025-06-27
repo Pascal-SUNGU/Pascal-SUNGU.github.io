@@ -5,7 +5,7 @@ permalink: /about/
 author_profile: true
 ---
 
-Hello!,
+Hello !
 
 I’m **Pascal Sungu**, a researcher and professional from the **Democratic Republic of Congo**.
 
