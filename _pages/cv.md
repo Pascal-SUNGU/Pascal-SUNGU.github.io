@@ -1,14 +1,13 @@
 ---
-
 layout: single
 title: "Curriculum Vitae"
 permalink: /cv/
-author\_profile: true
----------------------
+author_profile: true
+---
 
-You can [**download my CV as PDF here**](https://Pascal-SUNGU.github.io/pascal_sungu_cv.pdf) — or scroll below for the full version.
+You can [**download my CV as PDF here**](https://pascal-sungu.github.io/pascal_sungu_cv.pdf) — or scroll below for the full version.
 
-<a class="btn btn--primary" href="https://Pascal-SUNGU.github.io/pascal_sungu_cv.pdf" target="_blank">📄 Download Full CV (PDF)</a>
+<a class="btn btn--primary" href="https://pascal-sungu.github.io/pascal_sungu_cv.pdf" target="_blank">📄 Download Full CV (PDF)</a>
 
 ## 🧠 Education
 
