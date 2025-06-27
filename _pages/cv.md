@@ -7,8 +7,6 @@ author_profile: true
 
 You can [**download my CV as PDF here**](https://pascal-sungu.github.io/pascal_sungu_cv.pdf) — or scroll below for the full version.
 
-<a class="btn btn--primary" href="https://pascal-sungu.github.io/pascal_sungu_cv.pdf" target="_blank">📄 Download Full CV (PDF)</a>
-
 ## 🧠 Education
 
 * **PhD in Applied Mathematics to Life Sciences** — *Feb. 2023 – Present*
