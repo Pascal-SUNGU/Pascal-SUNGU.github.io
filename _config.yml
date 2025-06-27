@@ -21,7 +21,7 @@ title                    : "Pascal SUNGU" # Title shown in browser tab
 title_separator          : "-" # Used in title construction: "Pascal SUNGU - Page Title"
 subtitle                 : "Academic and Professional Portfolio" # Optional tagline below title (can adjust later)
 name                     : "Pascal SUNGU" # Used in author information
-description              : "Academic and professional site." # Shown in search engine previews
+description              : "Applied mathematics, malaria modeling, and data-driven research in infectious diseases and vector control." # Shown in search engine previews
 url                      : "https://pascal-sungu.github.io" # The full URL to your site
 baseurl                  : "" # Leave blank for GitHub Pages using user/organization site (not a subfolder)
 repository               : "Pascal-SUNGU/Pascal-SUNGU.github.io" # GitHub username/repository-name
