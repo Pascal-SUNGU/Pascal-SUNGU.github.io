@@ -5,7 +5,6 @@ permalink: /research/
 author_profile: true
 ---
 
-# Research
 
 I am involved in various research projects related to **data science**, **infectious disease modeling**, and **public health**.
 
