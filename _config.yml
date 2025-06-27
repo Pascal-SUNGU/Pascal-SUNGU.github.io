@@ -96,21 +96,22 @@ baidu_site_verification:
 
 # Social Sharing
 twitter:
-  username               : # ← your Twitter username (no @)
+  username               : # ← (leave blank or add if you want)
 facebook:
-  username               : # ← your Facebook username
+  username               : # ← (leave blank or add if you want)
   app_id                 : 
   publisher              : 
-og_image                 : # "/assets/images/social-default.png" ← optional preview image
+og_image                 : "/assets/images/social-default.png"  # ← optional image when sharing your site
 
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
+# Social Profiles for Structured Data
 social:
   type                   : Person
   name                   : Pascal SUNGU
   links: 
     - "https://github.com/Pascal-SUNGU"
-    # Add more social profile URLs here as needed
+    - "https://www.linkedin.com/in/pascal-sungu/"
+    - "https://www.researchgate.net/profile/Pascal-Sungu-Ngoy"
+    - "https://scholar.google.com/citations?hl=en&user=azCo2aoAAAAJ"
 
 # Analytics
 analytics:
@@ -122,23 +123,26 @@ analytics:
 # Site Author
 author:
   name             : "Pascal SUNGU"
-  avatar           : # "/assets/images/bio-photo.jpg" ← upload image if desired
+  avatar           : "/assets/images/bio-photo.jpg"  # ← Upload your image to this path
   bio              : "Personal academic and professional site of Pascal Sungu."
   location         : "Democratic Republic of Congo"
-  email            : # "your.email@example.com"
+  email            : pascal.sungu@crid-cam.net
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.email@example.com"
+      url: "mailto:pascal.sungu@crid-cam.net"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Pascal-SUNGU"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/your_handle"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      # url: "https://linkedin.com/in/your-profile"
+      url: "https://www.linkedin.com/in/pascal-sungu/"
+    - label: "ResearchGate"
+      icon: "fas fa-fw fa-flask"
+      url: "https://www.researchgate.net/profile/Pascal-Sungu-Ngoy"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?hl=en&user=azCo2aoAAAAJ"
 
 # Site Footer
 footer:
@@ -146,15 +150,15 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Pascal-SUNGU"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/your_handle"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      # url: "https://linkedin.com/in/your-profile"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/your_profile"
+      url: "https://www.linkedin.com/in/pascal-sungu/"
+    - label: "ResearchGate"
+      icon: "fas fa-fw fa-flask"
+      url: "https://www.researchgate.net/profile/Pascal-Sungu-Ngoy"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?hl=en&user=azCo2aoAAAAJ"
 
 
 # Reading Files
@@ -220,7 +224,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Africa/Lubumbashi  # <-- set your time zone here
+timezone: Africa/Yaounde  # <-- set your time zone here
 
 # Pagination with jekyll-paginate
 paginate: 5
