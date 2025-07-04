@@ -1,0 +1,26 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Jekyll artifacts
+_site/
+.jekyll-cache/
+.sass-cache/
+.bundle/
+vendor/
+
+# Node-related files
+node_modules/
+
+# Editor/IDE folders
+.vscode/
+.idea/
+
+# Log files and temp files
+*.log
+*.tmp
+
+# Ignore test and build files
+test/
+docs/
