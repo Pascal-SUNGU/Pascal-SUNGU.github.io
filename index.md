@@ -6,10 +6,10 @@ permalink: /
 header:
   overlay_color: "#5e616c"
   overlay_filter: "0.3"
-  overlay_image: /assets/images/splash-bg.jpg  # Optional background image
+  overlay_image: banner.jpg  # Optional background image
   cta_label: "Explore My Work"
   cta_url: "/research/"
-  caption: "Personal image"
+  caption: "Bayesian Statistics | Malaria Transmission | Digital Health"
 ---
 
 Welcome to my personal academic and professional website.  
