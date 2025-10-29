@@ -38,6 +38,7 @@ You can [**download my CV as PDF here**](https://pascal-sungu.github.io/pascal_s
 
 ## 📅 Training & Conferences (Highlights)
 
+* **Data-Driven Epidemiological Models — Current Trends and New Threats** — CIMPA School Nairobi, *July 2025*
 * **Modern Statistics and Machine Learning for Population Health in Africa** — AIMS Cape Town, *March 2025*
 * **TVCAG Cameroon**, CRID — *March 2024*
 * **Malaria Modeling Symposium**, AMMnet — *Feb 2024*
